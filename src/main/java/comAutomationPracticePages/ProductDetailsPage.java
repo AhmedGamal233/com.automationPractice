@@ -1,10 +1,11 @@
 package comAutomationPracticePages;
 
 import Actions.UiActions;
+import org.openqa.selenium.WebDriver;
 import pageFactory.PageFactoryClass;
 
 public class ProductDetailsPage {
-
+    public WebDriver browserObject = PageFactoryClass.browserObject;
     /**
      * scroll until element is visible
      *
@@ -22,5 +23,6 @@ public class ProductDetailsPage {
      * clickOn ProceedToCheckoutButton
      */
     public void clickOnProceedToCheckoutButton()
-    { UiActions.clickOn(PageFactoryClass.proceedToCheckoutButtonOfProductDetailsPage); }
+    {  UiActions.waitUntilVisability(browserObject,PageFactoryClass.proceedToCheckoutButtonOfProductDetailsPage);
+        UiActions.clickOn(PageFactoryClass.proceedToCheckoutButtonOfProductDetailsPage); }
 }

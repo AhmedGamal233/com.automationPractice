@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestOnVariousBrowsers(failed)">
+    <parameter name="fileName" value="Config"/>
+    <parameter name="DataSizeRow_2" value="1"/>
+    <parameter name="fileExtension_2" value=".xlsx"/>
+    <parameter name="DataSizeCol" value="2"/>
+    <parameter name="NodeIP" value=""/>
+    <parameter name="DataSizeRow" value="1"/>
+    <parameter name="baseURL" value="http://automationpractice.com/index.php"/>
+    <parameter name="registrationMail" value="ahmed.gamal11@yahoo.com"/>
+    <parameter name="BrowserType" value="ch"/>
+    <parameter name="fileExtension" value=".xlsx"/>
+    <parameter name="fileName_2" value="config2"/>
+    <parameter name="DataSizeCol_2" value="12"/>
+    <parameter name="PlatformType" value=""/>
+    <parameter name="BrowserVersion" value=""/>
+    <classes>
+      <class name="comAutomationPracticeTests.Tests">
+        <methods>
+          <include name="validateOrderWasPlacedFromOrderHistoryPage"/>
+          <include name="AfterClass"/>
+          <include name="BeforeClass"/>
+          <include name="signIN"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- comAutomationPracticeTests.Tests -->
+    </classes>
+  </test> <!-- TestOnVariousBrowsers(failed) -->
+</suite> <!-- Failed suite [Suite] -->

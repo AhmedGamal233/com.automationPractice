@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\ITI\Test Automation\TestAutomationProjects\Com.Google.VOIS.Challenge\testngSuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\ITI\Test Automation\TestAutomationProjects\com.automationPractice\Com.automationpracticeGIT\testngSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="comAutomationPracticeTests.Tests" hash-for-method="validateOrderWasPlacedFromOrderHistoryPage">validateOrderWasPlacedFromOrderHistoryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,8 +115,13 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="comGoogleTests.SearchResultsTests" class="method navigator-link" hash-for-method="compareBetweenSearchResultOfPage2AndPage3(https://www.google.com/ncr, Vodafone)">compareBetweenSearchResultOfPage2AndPage3(https://www.google.com/ncr, Vodafone)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="comAutomationPracticeTests.Tests" hash-for-method="createNewUser(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.tes...)">createNewUser(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.tes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="comAutomationPracticeTests.Tests" hash-for-method="signIN(ahmedgamal@yahoo.com, 12345)">signIN(ahmedgamal@yahoo.com, 12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -117,18 +136,64 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">comGoogleTests.SearchResultsTests</span>
+              <img src="failed.png"/>
+              <span class="class-name">comAutomationPracticeTests.Tests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="compareBetweenSearchResultOfPage2AndPage3(https://www.google.com/ncr, Vodafone)">
-                  </a> <!-- compareBetweenSearchResultOfPage2AndPage3(https://www.google.com/ncr, Vodafone) -->
-                  <span class="method-name">compareBetweenSearchResultOfPage2AndPage3</span>
-                  <span class="parameters">(https://www.google.com/ncr, Vodafone)</span>
+                  <a name="validateOrderWasPlacedFromOrderHistoryPage">
+                  </a> <!-- validateOrderWasPlacedFromOrderHistoryPage -->
+                  <span class="method-name">validateOrderWasPlacedFromOrderHistoryPage</span>
+                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CLRQHKA&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\GEMI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50751793928eb30b7534c440ffda0e39
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.submit(Unknown Source)
+	at Actions.UiActions.clickOn(UiActions.java:74)
+	at comAutomationPracticePages.ProductDetailsPage.clickOnProceedToCheckoutButton(ProductDetailsPage.java:25)
+	at comAutomationPracticeTests.Tests.validateOrderWasPlacedFromOrderHistoryPage(Tests.java:133)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">comAutomationPracticeTests.Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUser(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.tes...)">
+                  </a> <!-- createNewUser(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.tes...) -->
+                  <span class="method-name">createNewUser</span>
+                  <span class="parameters">(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.testng.TestRunner@3d08f3f5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIN(ahmedgamal@yahoo.com, 12345)">
+                  </a> <!-- signIN(ahmedgamal@yahoo.com, 12345) -->
+                  <span class="method-name">signIN</span>
+                  <span class="parameters">(ahmedgamal@yahoo.com, 12345)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,23 +201,37 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\ITI\Test Automation\TestAutomationProjects\Com.Google.VOIS.Challenge\testngSuite.xml</span>
+            <span class="header-content">D:\ITI\Test Automation\TestAutomationProjects\com.automationPractice\Com.automationpracticeGIT\testngSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestOnVariousBrowsers&quot;&gt;
     &lt;parameter name=&quot;fileName&quot; value=&quot;Config&quot;/&gt;
-    &lt;parameter name=&quot;BrowserType&quot; value=&quot;IE&quot;/&gt;
-    &lt;parameter name=&quot;fileExtension&quot; value=&quot;.properties&quot;/&gt;
+    &lt;parameter name=&quot;DataSizeRow_2&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;fileExtension_2&quot; value=&quot;.xlsx&quot;/&gt;
+    &lt;parameter name=&quot;DataSizeCol&quot; value=&quot;2&quot;/&gt;
     &lt;parameter name=&quot;NodeIP&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;DataSizeRow&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;baseURL&quot; value=&quot;http://automationpractice.com/index.php&quot;/&gt;
+    &lt;parameter name=&quot;registrationMail&quot; value=&quot;ahmed.gamal11@yahoo.com&quot;/&gt;
+    &lt;parameter name=&quot;BrowserType&quot; value=&quot;ch&quot;/&gt;
+    &lt;parameter name=&quot;fileExtension&quot; value=&quot;.xlsx&quot;/&gt;
+    &lt;parameter name=&quot;fileName_2&quot; value=&quot;config2&quot;/&gt;
+    &lt;parameter name=&quot;DataSizeCol_2&quot; value=&quot;12&quot;/&gt;
     &lt;parameter name=&quot;PlatformType&quot; value=&quot;&quot;/&gt;
     &lt;parameter name=&quot;BrowserVersion&quot; value=&quot;&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;comGoogleTests.BaseTest&quot;/&gt;
-      &lt;class name=&quot;comGoogleTests.SearchResultsTests&quot;/&gt;
+      &lt;class name=&quot;comAutomationPracticeTests.BaseTest&quot;/&gt;
+      &lt;class name=&quot;comAutomationPracticeTests.Tests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createNewUser&quot;/&gt;
+          &lt;include name=&quot;signIN&quot;/&gt;
+          &lt;include name=&quot;validateOrderWasPlacedFromOrderHistoryPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- comAutomationPracticeTests.Tests --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestOnVariousBrowsers --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -192,16 +271,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'compareBetweenSearchResultOfPage2AndPage3')
-data.setCell(0, 2, 'comGoogleTests.SearchResultsTests')
-data.setCell(0, 3, 19745);
+data.setCell(0, 1, 'createNewUser')
+data.setCell(0, 2, 'comAutomationPracticeTests.Tests')
+data.setCell(0, 3, 16650);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateOrderWasPlacedFromOrderHistoryPage')
+data.setCell(1, 2, 'comAutomationPracticeTests.Tests')
+data.setCell(1, 3, 9280);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signIN')
+data.setCell(2, 2, 'comAutomationPracticeTests.Tests')
+data.setCell(2, 3, 4171);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,22 +314,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">comGoogleTests.SearchResultsTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">comAutomationPracticeTests.Tests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">BeforeClass(IE, , , )</span>
+                <span class="method-name">BeforeClass(http://automationpractice.com/index.php, ch, , , )</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">compareBetweenSearchResultOfPage2AndPage3(https://www.google.com/ncr, Vodafone)</span>
-                <span class="method-start">10112 ms</span>
+                <span class="method-name">createNewUser(MR, Ahmed, gamal, 12345, 23, 3, 1994, smartvillage123iti, Washington, 32, 14598, 1234567890, org.tes...)</span>
+                <span class="method-start">12418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">screenshotOnFailure([TestResult name=compareBetweenSearchResultOfPage2AndPage3 status=SUCCESS method=SearchResultsTests....)</span>
-                <span class="method-start">29962 ms</span>
+                <span class="method-name">screenshotOnFailure([TestResult name=createNewUser status=SUCCESS method=Tests.createNewUser(java.lang.String, java.lang...)</span>
+                <span class="method-start">29192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signIN(ahmedgamal@yahoo.com, 12345)</span>
+                <span class="method-start">29250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=signIN status=SUCCESS method=Tests.signIN(java.lang.String, java.lang.String)[pri:0...)</span>
+                <span class="method-start">33434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateOrderWasPlacedFromOrderHistoryPage</span>
+                <span class="method-start">33446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=validateOrderWasPlacedFromOrderHistoryPage status=FAILURE method=Tests.validateOrde...)</span>
+                <span class="method-start">42777 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">AfterClass</span>
-                <span class="method-start">29991 ms</span>
+                <span class="method-start">43331 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

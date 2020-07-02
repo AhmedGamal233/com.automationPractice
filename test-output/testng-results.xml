@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-21T16:08:15 EET" name="Suite" finished-at="2020-06-21T16:08:45 EET" duration-ms="30772">
+  <suite name="Suite" duration-ms="44202" started-at="2020-07-02T19:37:57 EET" finished-at="2020-07-02T19:38:41 EET">
     <groups>
     </groups>
-    <test started-at="2020-06-21T16:08:15 EET" name="TestOnVariousBrowsers" finished-at="2020-06-21T16:08:45 EET" duration-ms="30772">
-      <class name="comGoogleTests.SearchResultsTests">
-        <test-method is-config="true" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:comGoogleTests.SearchResultsTests@5fbdfdcf]" started-at="2020-06-21T16:08:15 EET" name="BeforeClass" finished-at="2020-06-21T16:08:25 EET" duration-ms="10081" status="PASS">
+    <test name="TestOnVariousBrowsers" duration-ms="44202" started-at="2020-07-02T19:37:57 EET" finished-at="2020-07-02T19:38:41 EET">
+      <class name="comAutomationPracticeTests.Tests">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="BeforeClass" is-config="true" duration-ms="11518" started-at="2020-07-02T19:37:57 EET" finished-at="2020-07-02T19:38:08 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[http://automationpractice.com/index.php]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[ch]]>
               </value>
             </param>
             <param index="2">
@@ -29,42 +29,214 @@
                 <![CDATA[]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method signature="compareBetweenSearchResultOfPage2AndPage3(java.lang.String, java.lang.String)[pri:0, instance:comGoogleTests.SearchResultsTests@5fbdfdcf]" started-at="2020-06-21T16:08:25 EET" name="compareBetweenSearchResultOfPage2AndPage3" data-provider="data_provider" finished-at="2020-06-21T16:08:44 EET" duration-ms="19745" status="PASS">
+        <test-method status="PASS" signature="createNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="createNewUser" duration-ms="16650" started-at="2020-07-02T19:38:09 EET" data-provider="registrationData" finished-at="2020-07-02T19:38:26 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.google.com/ncr]]>
+                <![CDATA[MR]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Vodafone]]>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gamal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1994]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[smartvillage123iti]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Washington]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[14598]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[org.testng.TestRunner@3d08f3f5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compareBetweenSearchResultOfPage2AndPage3 -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:comGoogleTests.SearchResultsTests@5fbdfdcf]" started-at="2020-06-21T16:08:45 EET" name="screenshotOnFailure" finished-at="2020-06-21T16:08:45 EET" duration-ms="2" status="PASS">
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="screenshotOnFailure" is-config="true" duration-ms="4" started-at="2020-07-02T19:38:26 EET" finished-at="2020-07-02T19:38:26 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=compareBetweenSearchResultOfPage2AndPage3 status=SUCCESS method=SearchResultsTests.compareBetweenSearchResultOfPage2AndPage3(java.lang.String, java.lang.String)[pri:0, instance:comGoogleTests.SearchResultsTests@5fbdfdcf] output={null}]]]>
+                <![CDATA[[TestResult name=createNewUser status=SUCCESS method=Tests.createNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:comGoogleTests.SearchResultsTests@5fbdfdcf]" started-at="2020-06-21T16:08:45 EET" name="AfterClass" finished-at="2020-06-21T16:08:45 EET" duration-ms="753" status="PASS">
+        <test-method status="PASS" signature="signIN(java.lang.String, java.lang.String)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="signIN" duration-ms="4171" started-at="2020-07-02T19:38:26 EET" data-provider="signInData" finished-at="2020-07-02T19:38:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahmedgamal@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIN -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-07-02T19:38:30 EET" finished-at="2020-07-02T19:38:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIN status=SUCCESS method=Tests.signIN(java.lang.String, java.lang.String)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="FAIL" signature="validateOrderWasPlacedFromOrderHistoryPage()[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="validateOrderWasPlacedFromOrderHistoryPage" duration-ms="9280" started-at="2020-07-02T19:38:30 EET" depends-on-methods="comAutomationPracticeTests.Tests.signIN" finished-at="2020-07-02T19:38:40 EET">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: Unable to find owning document
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CLRQHKA', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\GEMI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50751793928eb30b7534c440ffda0e39]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CLRQHKA', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\GEMI\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50751793928eb30b7534c440ffda0e39
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.submit(Unknown Source)
+at Actions.UiActions.clickOn(UiActions.java:74)
+at comAutomationPracticePages.ProductDetailsPage.clickOnProceedToCheckoutButton(ProductDetailsPage.java:25)
+at comAutomationPracticeTests.Tests.validateOrderWasPlacedFromOrderHistoryPage(Tests.java:133)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderWasPlacedFromOrderHistoryPage -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="screenshotOnFailure" is-config="true" duration-ms="548" started-at="2020-07-02T19:38:40 EET" finished-at="2020-07-02T19:38:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateOrderWasPlacedFromOrderHistoryPage status=FAILURE method=Tests.validateOrderWasPlacedFromOrderHistoryPage()[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:comAutomationPracticeTests.Tests@71b1176b]" name="AfterClass" is-config="true" duration-ms="836" started-at="2020-07-02T19:38:40 EET" finished-at="2020-07-02T19:38:41 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-      </class> <!-- comGoogleTests.SearchResultsTests -->
+      </class> <!-- comAutomationPracticeTests.Tests -->
     </test> <!-- TestOnVariousBrowsers -->
   </suite> <!-- Suite -->
 </testng-results>
