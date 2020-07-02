@@ -1,0 +1,77 @@
+[
+  {
+  "name": "male",
+  "type": "id",
+  "value": "id_gender1"
+},
+  {
+    "name": "female",
+    "type": "id",
+    "value": "id_gender2"
+  },
+  {
+    "name": "firstName",
+    "type": "id",
+    "value": "customer_firstname"
+  },
+  {
+    "name": "lastName",
+    "type": "id",
+    "value": "customer_lastname"
+  },
+  {
+    "name": "password",
+    "type": "id",
+    "value": "passwd"
+  },
+  {
+    "name": "daysDropDownMenu",
+    "type": "id",
+    "value": "days"
+  },
+  {
+    "name": "monthsDropDownMenu",
+    "type": "id",
+    "value": "months"
+  },
+  {
+    "name": "yearsDropDownMenu",
+    "type": "id",
+    "value": "years"
+  },
+  {
+    "name": "address",
+    "type": "id",
+    "value": "address1"
+  },
+  {
+    "name": "city",
+    "type": "id",
+    "value": "city"
+  },
+  {
+    "name": "postCode",
+    "type": "id",
+    "value": "postcode"
+  },
+  {
+    "name": "stateDropDownMenu",
+    "type": "id",
+    "value": "id_state"
+  },
+  {
+    "name": "postalCode",
+    "type": "id",
+    "value": "postcode"
+  },
+  {
+    "name": "mobilePhone",
+    "type": "id",
+    "value": "phone_mobile"
+  },
+  {
+    "name": "registerButton",
+    "type": "id",
+    "value": "submitAccount"
+  }
+]

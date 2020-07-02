@@ -1,0 +1,12 @@
+[
+  {
+    "name": "addToChartButton",
+    "type": "name",
+    "value": "Submit"
+  },
+  {
+    "name": "proceedToCheckoutButtonOfProductDetailsPage",
+    "type": "xpath",
+    "value": "//a[@title='Proceed to checkout']"
+  }
+]

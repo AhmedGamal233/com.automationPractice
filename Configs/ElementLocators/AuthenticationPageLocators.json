@@ -1,0 +1,27 @@
+[
+  {
+    "name": "requiredRegisterMail",
+    "type": "id",
+    "value": "email_create"
+  },
+  {
+    "name": "createAccountButton",
+    "type": "id",
+    "value": "SubmitCreate"
+  },
+  {
+    "name": "signInEmailAddress",
+    "type": "id",
+    "value": "email"
+  },
+  {
+    "name": "signInPassword",
+    "type": "id",
+    "value": "passwd"
+  },
+  {
+    "name": "signInButton",
+    "type": "id",
+    "value": "SubmitLogin"
+  }
+]

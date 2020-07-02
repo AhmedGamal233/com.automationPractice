@@ -1,0 +1,7 @@
+[
+  {
+    "name": "iConfirmMyOrderButton",
+    "type": "xpath",
+    "value": "//button[@class='button btn btn-default button-medium']"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Orders",
+    "type": "xpath",
+    "value": "//td//span//following-sibling::a"
+  },
+  {
+    "name": "orderReference",
+    "type": "className",
+    "value": "color-myaccount"
+  }
+]

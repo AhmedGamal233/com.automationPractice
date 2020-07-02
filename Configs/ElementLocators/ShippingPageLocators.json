@@ -1,0 +1,14 @@
+[
+
+  {
+    "name": "agreeOnTerms",
+    "type": "id",
+    "value": "uniform-cgv"
+  },
+
+  {
+    "name": "proceedToCheckoutButtonOfShippingPage",
+    "type": "name",
+    "value": "processCarrier"
+  }
+]

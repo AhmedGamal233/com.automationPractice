@@ -1,0 +1,12 @@
+[
+  {
+    "name": "orderDetails",
+    "type": "xpath",
+    "value": "//div[@class='box']"
+  },
+  {
+    "name": "backToOrders",
+    "type": "xpath",
+    "value": "//a[@title='Back to orders']"
+  }
+]

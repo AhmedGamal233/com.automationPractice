@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Tops",
+    "type": "xpath",
+    "value": "//div[@class='block_content']//span[@class='grower CLOSE']/following-sibling::a[contains(.,'Tops')]"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "proceedToCheckoutButtonOfSummaryPage",
+    "type": "xpath",
+    "value": "//p//a[@title='Proceed to checkout']"
+  }
+]

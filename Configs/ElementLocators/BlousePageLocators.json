@@ -1,0 +1,7 @@
+[
+  {
+    "name": "selectedProduct",
+    "type": "xpath",
+    "value": "//h5[@itemprop='name']/a"
+  }
+]

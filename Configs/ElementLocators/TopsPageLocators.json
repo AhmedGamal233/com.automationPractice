@@ -1,0 +1,7 @@
+[
+  {
+    "name": "blouses",
+    "type": "xpath",
+    "value": "//div[@class='block_content']//following::li[@class='last'][1]/a[contains(.,'Blouses')]"
+  }
+]

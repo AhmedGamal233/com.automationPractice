@@ -1,0 +1,18 @@
+[ {
+  "name": "signIn",
+  "type": "className",
+  "value": "login"
+},
+  {
+    "name": "signOut",
+    "type": "className",
+    "value": "logout"
+  },
+  {
+    "name": "womenCategory",
+    "type": "xpath",
+    "value": "//a[@title='Women']"
+  }
+
+
+]

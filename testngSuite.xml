@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+ 	
+   	<test name = "TestOnVariousBrowsers" preserve-order="true">
+		<parameter name = "BrowserType" value = "ch"/>
+		<parameter name = "baseURL" value = "http://automationpractice.com/index.php"/>
+		<!--DONT FORGIT TO CHANGE THE NEW REGISTRATION MAIL FROM testngSuite.xml file -->
+		<parameter name = "registrationMail" value = "ahmed.gamal11@yahoo.com"/>
+
+
+		<parameter name = "DataSizeRow" value="1"/>
+		<parameter name = "DataSizeCol" value = "2"/>
+		<parameter name = "fileExtension" value = ".xlsx"/>
+		<parameter name = "fileName" value = "Config"/>
+
+		<parameter name = "DataSizeRow_2" value="1"/>
+		<parameter name = "DataSizeCol_2" value = "12"/>
+		<parameter name = "fileExtension_2" value = ".xlsx"/>
+		<parameter name = "fileName_2" value = "config2"/>
+
+		<parameter name = "NodeIP" value = ""/>
+		<parameter name = "BrowserVersion" value = ""/>
+		<parameter name = "PlatformType" value = ""/>
+
+		  	<classes>
+	  			<class name = "comAutomationPracticeTests.BaseTest"/>
+	  			<class name = "comAutomationPracticeTests.Tests"> <methods>
+					<include name="createNewUser" />
+					<include name="signIN" />
+					<include name="validateOrderWasPlacedFromOrderHistoryPage" />
+				</methods></class>
+	  		</classes>
+  	</test> <!-- TestOnVariousBrowser-->
+
+
+</suite> <!-- Cross Browser Testing -->
