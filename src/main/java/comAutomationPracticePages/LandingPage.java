@@ -11,6 +11,7 @@ public class LandingPage {
      */
     public void clickOnSignInButton()
     {
+        UiActions.waitUntilVisability(browserObject,PageFactoryClass.signIn);
         UiActions.clickOn(PageFactoryClass.signIn);
     }
 
