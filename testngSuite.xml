@@ -7,7 +7,7 @@
 		<parameter name = "BrowserType" value = "ch"/>
 		<parameter name = "baseURL" value = "http://automationpractice.com/index.php"/>
 		<!--DONT FORGIT TO CHANGE THE NEW REGISTRATION MAIL FROM testngSuite.xml file -->
-		<parameter name = "registrationMail" value = "ahmed.gamal11@yahoo.com"/>
+		<parameter name = "registrationMail" value = "ahmed.gamal1111@yahoo.com"/>
 
 
 		<parameter name = "DataSizeRow" value="1"/>

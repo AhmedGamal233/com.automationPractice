@@ -65,6 +65,7 @@ public class Tests extends BaseTest {
 							  String year, String address, String city, String state,
 							  String postalCode, String mobilePhone,ITestContext context)
 	{
+		//landingPage.clickOnSignOutButton();
 		landingPage.clickOnSignInButton();
 		authenticationPage.scrollUntilRegisterMailIsVisible();
 		String registrationMail = context.getCurrentXmlTest().getParameter("registrationMail");

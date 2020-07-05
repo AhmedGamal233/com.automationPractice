@@ -13,7 +13,7 @@ public class RegistrationPage {
      */
     public void GenderSelection(String gender)
     {
-        if(gender.equalsIgnoreCase("male=mr")) {
+        if(gender.equalsIgnoreCase("mr")) {
             UiActions.waitUntilVisability(browserObject,PageFactoryClass.male);
             UiActions.clickOn(PageFactoryClass.male);
         }else
